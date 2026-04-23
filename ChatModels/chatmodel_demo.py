@@ -6,4 +6,4 @@ chatModel=ChatOpenAI(model='gpt-4')
 
 res=chatModel.invoke("What is the capital of India?")
 
-print(res)
+print(res.content)
