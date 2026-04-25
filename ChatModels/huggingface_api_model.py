@@ -4,9 +4,9 @@ import os
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="HuggingFaceH4/zephyr-7b-beta",
+    repo_id="meta-llama/Llama-3.1-8B-Instruct",
     task="text-generation",
-    huggingfacehub_api_token=os.getenv('HUGGINGFACEHUB_ACCESS_TOKEN')
+    huggingfacehub_api_token=os.getenv('HUGGINGFACEHUB_API_TOKEN')
 )
 
 model = ChatHuggingFace(llm=llm)
