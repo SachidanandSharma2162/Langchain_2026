@@ -9,6 +9,10 @@ openai
 # Anthropic Integration
 langchain-anthropic
 
+# HMM Lab Dependencies
+numpy
+hmmlearn
+
 # Google Gemini (PaLM) Integration
 langchain-google-genai
 google-generativeai
