@@ -13,6 +13,6 @@ with open("chat_history.txt") as f:
 
 print(chat_history)
 
-prompt = chat_template.invoke({'chat_history':chat_history, 'query':'Where is my refund'})
+prompt = chat_template.invoke({'chat_history':chat_history, 'input':'Where is my refund'})
 
 print(prompt)
