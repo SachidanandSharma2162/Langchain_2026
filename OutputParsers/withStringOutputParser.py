@@ -2,8 +2,6 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 import os
 from langchain_core.prompts import PromptTemplate
-from typing import TypedDict,Annotated, Optional,Literal
-from pydantic import BaseModel,EmailStr, Field
 from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
@@ -27,7 +25,7 @@ template2=PromptTemplate(
 )
 
 chain =template1 | model | StrOutputParser() | template2 | model| StrOutputParser()
-result1=chain.invoke({"topic": "importance of condom."})
+result1=chain.invoke({"topic": "importance of GST."})
 
 
 print("Report: ",result1)

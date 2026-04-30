@@ -12,6 +12,7 @@ class Review(BaseModel):
     cons: list[str]=Field(default=None,description="A list of the negative aspects, if any present in the review.")
     features: list[str]=Field(default=None,description="A list of the key features mentioned in the review.")
     name: Optional[str]=Field(default=None,description="Name of the reviewer.")
+    age: Optional[int]=Field(gt=0,le=100, default=None, description="Age of the reviewer.")
 # Load API key
 load_dotenv()
 
