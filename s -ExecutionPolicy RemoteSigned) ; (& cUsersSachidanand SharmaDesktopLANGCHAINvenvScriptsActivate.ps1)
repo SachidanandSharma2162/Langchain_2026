@@ -1,0 +1,143 @@
+[33mcommit 44fcdba0ade89a87f3d3455a4c6342bd98cf7b7e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Tue May 5 21:52:15 2026 +0530
+
+    code changed
+
+[33mcommit dabcc0f6e824ad8d7cd3dd4fb8c4a475bd0ed7a0[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Tue May 5 21:50:16 2026 +0530
+
+    vector store done.
+
+[33mcommit 59ef1f427020ea7bfbc73705b8b337085e7322cd[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Tue May 5 21:49:00 2026 +0530
+
+    vector store done.
+
+[33mcommit 7b72c9a969ecce003ff6de8f59ecaf0fedf1bbf6[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Tue May 5 21:47:08 2026 +0530
+
+    vector store done.
+
+[33mcommit 0fd153cda2e63ad8466762c528dde49e86fa1723[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Mon May 4 15:50:58 2026 +0530
+
+    text splitters done.
+
+[33mcommit 06ca359475159f19ee49633b973b1a64e4b6b20e[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Sun May 3 00:00:09 2026 +0530
+
+    document loaders done.
+
+[33mcommit e8d22b7532ff8e80cb9426e3b59406039fc05b03[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Sat May 2 13:47:04 2026 +0530
+
+    Runnables done.
+
+[33mcommit b77f8117ed7103c4933c9a8fe19e7b7d10012a2e[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Fri May 1 12:16:23 2026 +0530
+
+    langchain chains done.
+
+[33mcommit 41b3b454b3640f97e81883db2b31cec383356070[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Thu Apr 30 23:11:31 2026 +0530
+
+    OutputParser done.
+
+[33mcommit d6daebd85c8808d3f84e8b75fac5eca3c878514b[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Thu Apr 30 12:46:46 2026 +0530
+
+    strOutputParser done.
+
+[33mcommit 0ffbd338a13fb39f924307e3494d1983568ef7d5[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Thu Apr 30 00:03:49 2026 +0530
+
+    structured o/p done.
+
+[33mcommit 68bcdc72a7730be4fc8e161587ac7c0c1cff435f[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Wed Apr 29 13:47:55 2026 +0530
+
+    typedDict done.
+
+[33mcommit 20645be6d26b8616065e8ff81cd804c6e6e3fcfb[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Wed Apr 29 00:33:32 2026 +0530
+
+    typedDict done.
+
+[33mcommit 471ef4be32e9160972f48aa9888199779d48af07[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Tue Apr 28 13:43:25 2026 +0530
+
+    chatPromptTemplate and meaasgePlaceholder.
+
+[33mcommit ff11132894b33be204b69fa970ad8ba962fffaf7[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Tue Apr 28 00:29:56 2026 +0530
+
+    chatPromptTemplate done.
+
+[33mcommit 72b5571d9d856f9413b9d8c1c9eee36b16ad152e[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Mon Apr 27 16:11:03 2026 +0530
+
+    build and AI chatbot and also prompt UI.
+
+[33mcommit 0e8571c8e29921a6ab9c5a98c6089aeb07777795[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Mon Apr 27 15:36:53 2026 +0530
+
+    added readme.md file
+
+[33mcommit cddfd33054c9bcf4d4c41b177e181d40544c6f6d[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Mon Apr 27 15:34:09 2026 +0530
+
+    prompts templates.
+
+[33mcommit 95f98d1bba7115c36bb5987baf27bca103fa6f98[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Sun Apr 26 00:33:22 2026 +0530
+
+    Project done.
+
+[33mcommit 0e56efaca93d76dce353f47fd7cfb6a1d469c11d[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Sun Apr 26 00:14:31 2026 +0530
+
+    Embedding Model done.
+
+[33mcommit f9119d514944bef9a3b44ddd0230ed5d23e15c01[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Sat Apr 25 14:13:39 2026 +0530
+
+    Chat Model Done.
+
+[33mcommit fedd63ab1f3472a130516f07a8980a175008d0c4[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Thu Apr 23 16:33:08 2026 +0530
+
+    ChatModel Demo done.
+
+[33mcommit dacf2d3efbfa9b7f165641f2a7c74ab16bed8a68[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Thu Apr 23 16:31:19 2026 +0530
+
+    ChatModel Demo done.
+
+[33mcommit 55ee25d7965e19e75d5aa6177fcfde8418792ef0[m
+Author: SachidanandSharma2162 <sharmasachidanand1111@gmail.com>
+Date:   Thu Apr 23 15:58:16 2026 +0530
+
+    LLM Demo done.
