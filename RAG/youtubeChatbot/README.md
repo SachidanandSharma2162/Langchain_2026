@@ -15,7 +15,7 @@ LayerToolUIStreamlitTranscriptyoutube-transcript-apiText SplittingLangChain Recu
 
 📦 Installation
 1. Clone the repo
-bash git clone https://github.com/your-username/yt-chatbot.git
+bash git clone [https://github.com/your-username/yt-chatbot.git](https://github.com/SachidanandSharma2162/Langchain_2026/tree/main/RAG/youtubeChatbot)
 cd yt-chatbot
 2. Install dependencies
 bash pip install -r requirements.txt
