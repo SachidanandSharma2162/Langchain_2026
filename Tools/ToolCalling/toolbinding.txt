@@ -1,0 +1,7 @@
+Tool binding in LangChain means attaching tools to an LLM so the model can automatically decide:
+
+when to use a tool
+which tool to use
+what arguments to pass
+
+This uses native LLM function/tool calling.

@@ -1,0 +1,41 @@
+Creating custom tools in LangChain is one of the most important skills for building AI agents.
+
+A tool is just a Python function that the LLM can call.
+
+Simplest Way: @tool Decorator
+Example
+from langchain.tools import tool
+
+@tool
+def multiply(a: int, b: int) -> int:
+    """Multiply two numbers."""
+    
+    return a * b
+
+That’s now a LangChain tool.
+
+The docstring is very important because the LLM reads it to decide:
+
+when to use the tool
+what the tool does
+
+
+Using the Tool Directly
+print(multiply.invoke({
+    "a": 5,
+    "b": 10
+}))
+
+Output:
+
+50
+
+To make agent interact with the tools made by you,
+then you have to make your own custom tools.
+
+Important: Tools are also Runnables
+
+every tool has following attribues:
+1. name
+2. description
+3. args
