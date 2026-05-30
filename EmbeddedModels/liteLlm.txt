@@ -1,0 +1,9 @@
+What is LiteLLM?
+
+LiteLLM is an open-source Python library that acts as 
+a unified interface for Large Language Models. It lets
+you connect with multiple AI providers — OpenAI, 
+Anthropic, Google Gemini, Mistral, Cohere, and local
+models via Ollama — using a single, standardized API. 
+
+pip install litellm
