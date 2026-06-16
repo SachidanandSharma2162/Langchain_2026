@@ -26,8 +26,11 @@ llm_with_tools = llm.bind_tools([
 response = llm_with_tools.invoke(
     "Can you multiply 12 with 4?"
 )
-
-print(response)
-
 print("\nTool Calls:")
 print(response.tool_calls)
+
+tool_call = response.tool_calls[0]
+
+result = multiply.invoke(tool_call["args"])
+
+print(result)
