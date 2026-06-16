@@ -39,5 +39,5 @@ chain=template1|model|parser
 parsed_op=chain.invoke({
     "topic": "write a 5 line poem on the topic Man is Struggle",
 })
-print(parsed_op["poem"])
+print(parsed_op['poem'])
 print(type(parsed_op))
