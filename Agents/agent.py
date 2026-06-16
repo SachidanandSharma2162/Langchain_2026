@@ -7,6 +7,7 @@ from langchain_core.tools import tool
 import requests
 from langchain_classic.agents import create_tool_calling_agent,AgentExecutor
 load_dotenv()
+from langchain_groq import ChatGroq
 
 @tool
 def get_weather(city: str) -> str:
@@ -29,12 +30,11 @@ def get_weather(city: str) -> str:
     except Exception as e:
         return f"Error fetching weather: {str(e)}"
 
-llm=HuggingFaceEndpoint(
-    repo_id="meta-llama/Llama-3.1-8B-Instruct",
-    task="text_generation",
-    huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
+llm= ChatGroq(
+    model="llama-3.3-70b-versatile",
+    temperature=0,
+    api_key=os.getenv("GROQ_API_KEY")
 )
-chat_model=ChatHuggingFace(llm=llm)
 
 tools=[get_weather]
  
@@ -46,10 +46,10 @@ prompt=ChatPromptTemplate.from_messages([
 ]
 )
 
-agent = create_tool_calling_agent(chat_model, tools, prompt)
+agent = create_tool_calling_agent(llm, tools, prompt)
 
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-response = agent_executor.invoke({"input": "Find the capital of Uttar Pradesh, and then find the current weather condition for that city."})
+response = agent_executor.invoke({"input": "What is the temperature in capital of Uttar Pradesh, India."})
 
 print(response)
